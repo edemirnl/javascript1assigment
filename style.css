@@ -1,0 +1,53 @@
+/* Body'nin genel arka plan rengi ve yazı tipi */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Başlık stilini değiştiriyoruz */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Paragraf stilini değiştiriyoruz */
+p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* Buton stilini özelleştiriyoruz */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Tablonun genel görünümü */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Tablo hücrelerine stil veriyoruz */
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Tablo başlık hücreleri */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Çizgili tablo satırları */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
